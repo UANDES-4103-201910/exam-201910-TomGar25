@@ -23,7 +23,7 @@
     <% @products.each do |product| %>
       <tr>
 
-        <td><%= product.model%></td>
+        <td><%=  link_to  product.model, product%></td>
         <td><%= product.variant%></td>
         <td><%= product.price%></td>
         <td><%= product.sdes%></td>
